@@ -1,0 +1,11 @@
+//Write a Java program that asks the user to enter his/her name and greets them with “Hello <name>, have a good day” text.
+package com.company;
+import java.util.Scanner;
+public class HelloName {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your name");
+        String username = sc.nextLine();
+        System.out.println("Hello,  " + username + "  Have a good day");
+
+    }
