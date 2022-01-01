@@ -1,0 +1,28 @@
+package com.company;  //This program is to print a CGPA by getting user input about CGPA from marks
+
+import java.util.Scanner;
+
+public class CalculateCGPA {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Marks of Subject 1 are");
+        float sub1 = sc.nextFloat();
+        System.out.println("Marks of subject 2 are");
+        float sub2 = sc.nextFloat();
+        System.out.println("Marks of subject 3 are");
+        float sub3 = sc.nextFloat();
+        System.out.println("Marks of subject 4 are");
+        float sub4 = sc.nextFloat();
+        System.out.println("Marks of subject 5 are");
+        float sub5 = sc.nextFloat();
+        float sum = sub1+sub2+sub3+sub4+sub5;
+        float percentage = sum/500*100;
+        float CGPA = percentage/9;
+        System.out.println("The percentage is");
+        System.out.println(percentage);
+        System.out.println("The CGPA is");
+        System.out.println(CGPA);
+
+
+    }
+}
