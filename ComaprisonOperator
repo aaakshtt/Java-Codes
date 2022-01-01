@@ -1,0 +1,13 @@
+//Use comparison operators to find out whether a given number is greater than the user entered number or not.
+package com.company;
+import java.util.Scanner;
+
+public class ComaprisonOperator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println("Enter the value");
+        System.out.println(a>8);
+
+    }
+}
