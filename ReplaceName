@@ -1,0 +1,17 @@
+//Write a JAVA Program to convert String to Lowercase
+package com.company;
+import java.util.Scanner;
+
+public class StringPractice {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String name1 = sc.nextLine();
+        System.out.println("Dear  " + name1 + ", Thanks a lot");      //Put value inside letter
+        System.out.println(name1.replace("Aksh","Harry"));     //Replace Aksh with Harry
+        String letter = "Dear <|Name|> , Thanks a lot";
+        System.out.println(letter.replace("<|Name|>","Akshat"));  //Replace Name with AKshat
+
+
+
+    }
+}
