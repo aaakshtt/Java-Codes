@@ -1,0 +1,12 @@
+package com.company;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class StringPractice {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String st = sc.nextLine();
+        System.out.println(st.toLowerCase(Locale.ROOT));
+
+    }
+}
