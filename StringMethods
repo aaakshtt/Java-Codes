@@ -1,0 +1,25 @@
+package com.company;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class StringMethods {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String st = sc.nextLine();
+        System.out.println(st);
+        String st1 = st.toLowerCase(Locale.ROOT);   //Converts String to Lower Case
+        System.out.println(st1);
+        String st2 = st.substring(10);               //Prints String from Index 10
+        String st3 = st.substring(2,5);               //Prints String from Index 2 to 5
+        System.out.println(st2);
+        System.out.println(st3);
+        String st4 = st.replace('a','z');//Replaces A with Z
+        System.out.println(st4);
+        String st5 = String.valueOf(st.startsWith("Th"));//Returns True if String Starts with "Th"
+        System.out.println(st5);
+        String st6 = String.valueOf(st.endsWith("at"));
+        System.out.println(st6);
+    }
+
+
+}
