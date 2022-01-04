@@ -1,0 +1,26 @@
+//Write a program to show fail and pass if toral percentage is less than 40 and if any of the subject score is less than 35
+package com.company;
+import java.util.Scanner;
+
+public class Ch4Questions {
+    public static void main(String[] args) {
+    Scanner myobj = new Scanner(System.in);
+        System.out.println("Enter Marks of Subject 1");
+        float sub1 = myobj.nextFloat();
+        System.out.println("Enter Marks of Subject 2");
+        float sub2 = myobj.nextFloat();
+        System.out.println("Enter Marks of Subject 3");
+        float sub3 = myobj.nextFloat();
+        float sum = sub1 + sub2 +sub3;
+        float percentage = (sum/300)*100;
+        System.out.println("The percentage is");
+        System.out.println(percentage);
+        if (percentage<40 && sub1<35 && sub2<35 && sub3 < 35 ){
+            System.out.println("Pass");
+        }
+        else {
+            System.out.println("Fail");
+        }
+
+    }
+}
