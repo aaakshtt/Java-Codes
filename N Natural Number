@@ -1,0 +1,15 @@
+//Program to print n natural numbers in reverse order
+package com.company;
+import java.util.Scanner;
+
+public class ForLoop {
+    public static void main(String[] args) {
+        Scanner myobj = new Scanner(System.in);
+        int num = myobj.nextInt();
+        for (int i = num;num>0;num--){
+            System.out.println(2*num-1);
+
+        }
+
+    }
+}
