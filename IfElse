@@ -1,0 +1,16 @@
+//This program shows how to use IfElse Condition
+
+package com.company;
+
+public class IfElse {
+    public static void main(String[] args) {
+        int age = 8;
+        if(age>19){
+            System.out.println("You are an adult");
+        }
+        else {
+            System.out.println("No you are not an adult");
+        }
+
+    }
+}
