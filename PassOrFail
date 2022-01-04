@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ch4Questions {
     public static void main(String[] args) {
-    Scanner myobj = new Scanner(System.in);
+    Scanner myobj = new Scanner(System.in);        //Create a new Scanner object. SYstem.in Keyboard reference
         System.out.println("Enter Marks of Subject 1");
         float sub1 = myobj.nextFloat();
         System.out.println("Enter Marks of Subject 2");
