@@ -1,0 +1,8 @@
+//Q3 Write a program to print mulltiplication table of a given number n and the product
+         */
+        Scanner myobj = new Scanner(System.in);
+        int n = myobj.nextInt();
+        for (int i =1 ;i<=10;i++){       //Goes from i=0 to i=9
+            System.out.printf("%d * %d\n ",n,i);
+            System.out.println("The product is"+ n*i);
+        }
