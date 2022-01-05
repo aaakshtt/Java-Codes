@@ -1,0 +1,7 @@
+//Q2 Write a program to print first n even numbers using while loop
+        Scanner myobj = new Scanner(System.in);                   
+        int n = myobj.nextInt();          
+        while (n>0){                  //Boolean Condition
+            System.out.println(2*n);  //Statement
+            n--;
+        }
