@@ -1,0 +1,17 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class LoopsQuestionPractice {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int integer = sc.nextInt();
+        for (int i = integer; i<=10 ; i++){
+            //Integer will take nput, i<=10 is boolean
+            System.out.println(integer +" x " + i + " = " + (integer*i) );
+
+
+        }
+
+    }
+}
