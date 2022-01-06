@@ -1,0 +1,22 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class SwitchStatement2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String var = sc.nextLine();
+
+
+        switch (var){
+            case "Akshat":
+                System.out.println("You are the righ boy");
+                break;
+            case "Sahil":
+                System.out.println("You are the wrong boy");
+            case "Pritesh":
+                System.out.println("YOu are a girl");
+        }
+
+    }
+}
