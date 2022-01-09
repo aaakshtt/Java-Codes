@@ -1,0 +1,24 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Demo {
+    static void fun(int... array) {
+        System.out.println("Numbeer of arguments in array is" + array.length);
+        //Using for loop to display contents of  array
+        for (int i : array) {
+            System.out.print(i + " ");
+            System.out.println();
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        fun(100, 200, 300);
+        fun(1, 2, 3, 34, 56);
+        fun();
+
+
+    }
+} 
