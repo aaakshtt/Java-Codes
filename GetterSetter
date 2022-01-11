@@ -1,0 +1,33 @@
+package com.company;
+
+public class GettersSetters {
+    class MyEmployee{
+        private int id;  //We made id and name private
+        private String name;  //Hence we needed to create getter and setter
+        //private variables can only be accessed within the same class
+        //However, it is possible to access them if we provide public get and set methods.
+
+        //Lets create a getter
+        public String getName(){      //Getter will return name
+            return name; //This will give me name
+        }
+        public void setName(String n){      //Setter will never return anything
+            name = n;//Name is set
+        }
+        public void setId(int i){    //Setter will never return anything
+            id = i;  //This will take id as int
+        }
+        public int getID(){//This will give ID and return id
+            return id;
+        }
+    }
+    public void main(String[] args) {
+        MyEmployee harry = new MyEmployee();
+        harry.setName("codewithharry");
+        System.out.println(harry.getName());
+
+        }
+
+
+    }
+
