@@ -1,0 +1,21 @@
+//Intialzing by using method
+class Animal {
+  
+  String color;
+  int age;
+  void intobj(String c, int a){
+    color =c;
+    age = a;
+  }
+  
+  void display(){
+    System.out.println(color + " " + age);
+  }
+  public static void main(String[] args) {
+    Animal buzo = new Animal();
+    buzo.intobj("Rocky",21);
+    buzo.display();
+    
+    
+  }
+}
