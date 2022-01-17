@@ -1,0 +1,17 @@
+//Intializing by refernece variable
+class Animal {
+  
+  public void eat(){
+    System.out.println("I am eating");
+  }
+  public void run(){
+    System.out.println("I am runniing");
+  }
+  public static void main(String[] args) {
+    
+   System.out.println("");
+    Animal buzo = new Animal();
+    buzo.eat();
+    buzo.run();
+  }
+}
