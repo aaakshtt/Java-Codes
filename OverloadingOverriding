@@ -1,0 +1,32 @@
+package com.company;
+//Method Overloading : Same name , Same class and different arguments
+//Methods Overriding ; Same name , Different Class and same arguments
+public class Engine {
+    public void m1(int a){
+        System.out.println("I method 1of class Enigne with value     " + a);
+    }
+    public void m2(int b){      
+        System.out.println("I am method 2 of class Engine  with value   "+ b);
+        int c = 5+ b;
+        System.out.println(c);
+    }
+    public void m2(){       //Method Overloading
+        System.out.println("I am method 2 of class Engine ");
+    }
+
+}
+class Transmission{
+    public void m1(int a){           //Method Overriding
+        System.out.println("I am class method 1 of class Transmission with value  "+ a );
+    }
+}
+class Car{
+    public static void main(String[] args) {
+        Transmission t1= new Transmission();     //Creating object of constructor transmission
+        Engine e1 = new Engine();                //Creating object of constructor Engine
+        t1.m1(4);
+        e1.m1(5);
+        e1.m2(9999);
+        e1.m2();
+    }
+}
