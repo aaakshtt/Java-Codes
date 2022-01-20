@@ -1,0 +1,26 @@
+package com.company;
+
+public class Employee3 {
+    int empid;
+    String name;
+    static String company = "SP";                           //By declaring this variable static memory is saved as company is same
+    Employee3(int empid, String name) {
+        this.empid = empid;
+        this.name = name;
+//        this.company = company;
+    }
+
+    void display() {
+        System.out.println(empid + " " + name + " " + company);
+    }
+    public static void main(String[] args) {
+        Employee3 em = new Employee3(101, "akshat");
+        Employee3 em2 = new Employee3(102, "pritesh");
+        Employee3 em3 = new Employee3(103, "karan");
+        em.display();
+        em2.display();
+        em3.display();
+
+    }
+}
+
