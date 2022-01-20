@@ -1,0 +1,20 @@
+package com.company;                            //THis process is to ensure encapsulation
+
+class Employee2{
+    private int emp_id;                             //Data Hiding by declaring priate
+    public void setEmpId(int emp_id1){              //To view the data we create public method with name EmpId
+        emp_id = emp_id1;
+    }
+    public int getEmpId(){                          //To modify and get the data we create get  method
+        return emp_id;
+    }
+}
+public class Employee {
+    public static void main(String[] args){
+        Employee2 emp = new Employee2();
+        emp.setEmpId(101);                          //we give the value of 101 to pass
+        System.out.println(emp.getEmpId());         //We access the data by using the get method
+
+
+    }
+}
