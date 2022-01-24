@@ -1,8 +1,9 @@
 package com.company;
 //Methods in interface should always be public
-//We can implement more than one interface
+//We can implement more than one interface but not abstract clas
 //But in class only once class can be called
 //As shown in the figure given below, a class extends another class, an interface extends another interface, but a class implements an interface
+
 interface Bicycle{                                      //Interface is a group of methods
     int a =45;
     public void applyBrake(int decrement);             //Creating method
