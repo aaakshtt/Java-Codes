@@ -13,8 +13,10 @@ public class class3 {
 			;System.out.println(tofind);
 			for( i =0;i < arr.length;i++) {
 				if( tofind ==arr[i]) {
-					System.out.println("The value is found at index  " + i); 
+					System.out.println("The value is found at index  " + i);		
 				}
+				else{
+					System.out.println("Memeber not found");
 			}
 		}
 }
