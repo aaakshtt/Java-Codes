@@ -1,0 +1,24 @@
+package akshat2;
+
+public class minimum_number_in_array {
+
+	public static void main(String[] args) {
+		int[] arr = {12,13,14,16,18,01,909,33};
+		find_minimum(arr);
+
+	}
+	static void find_minimum(int[] array) {
+		if(array.length == 0) {
+			System.out.println("No array exists");
+		}
+		int temp = array[0];
+		for(int i =0;i<array.length;i++) {
+			if(array[i] < temp) {
+				temp = array[i];
+			}
+			
+		}
+		System.out.println("the most minimum is " + temp);
+	}
+
+}
